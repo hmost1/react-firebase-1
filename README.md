@@ -12,9 +12,11 @@ Production (firebase) deployment setup (only needs to be done once):
 1. npm run build
 2. npm install -g firebase-tools
 3. firebase init
-  a. login, follow prompts to select correct project
-  b. for initial services, select database and hosting 
-  c. type in "build" to public folder 
+
+  * login, follow prompts to select correct project
+  * for initial services, select database and hosting 
+  * type in "build" to public folder 
+  
 4. firebase deploy (or npm deploy) 
 
 Rebuild and deploy: 
